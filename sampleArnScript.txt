@@ -1,0 +1,33 @@
+**A sample ArnScript program
+
+**declare the variables
+
+decInt num1 -> 30
+decInt num2 -> 77
+decStr enter -> lit (Enter) + space + lit (an) + space + lit (integer:)
+display enter
+changeInt num2 -> 3 + 6 * 3 + readInt % 25
+display num2
+ 
+decStr s1 -> lit (Curry)
+decStr s2 -> lit (Thompson)
+  
+display enter
+decInt num3 -> readInt
+display lit (String:)
+changeStr s1 -> lit (changed) + space + readStr + lit (hi) + lit (78)
+
+  
+**conditional statement for integers
+check num1 <= num2
+  display s1 + s2
+  changeStr s2 -> lit (Poole)
+end
+
+**conditional statement for strings
+check s1 > s2
+  display num1
+end
+
+**nested for loop
+repeat i 1 10 -> display i * i
